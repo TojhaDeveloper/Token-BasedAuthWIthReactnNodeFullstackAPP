@@ -4,8 +4,8 @@ import * as actions from '../../actions';
 
 class Signin extends Component {
     handleFormSubmit({ email, password }) {
-        this.props.SignInUser({ email, password });
         //To do someething with loggin user in Logic
+        this.props.SignInUser({ email, password });
     }
 
     renderAlert() {
